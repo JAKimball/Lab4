@@ -19,6 +19,10 @@ nav ul li {
     background: #5EDFFF;
  }
 
+ nav ul li {
+     width: 5%;
+ }
+
  main article {
     background-color: #B3661E;
     float: left;

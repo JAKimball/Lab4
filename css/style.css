@@ -1,0 +1,32 @@
+/* Color Theme Swatches in Hex */
+.darkBlue { color: #0D93B3; }
+.lightBlue { color: #B3F0FF; }
+.blue { color: #5EDFFF; }
+.brown { color: #B3661E; }
+.lightBrown { color: #FFAC5E; }
+
+.darkBlueBackground { color: #0D93B3; }
+.lightBlueBackground { color: #B3F0FF; }
+.blueBackground { color: #5EDFFF; }
+.brownBackground { color: #B3661E; }
+.lightBrownBackground { color: #FFAC5E; }
+
+* { background-color: #0D93B3 }
+
+nav ul li {
+    display: inline;
+    color: #0D93B3;
+    background: #5EDFFF;
+ }
+
+ main article {
+    background-color: #B3661E;
+    float: left;
+    width: 33.3%;
+    margin: 2em;
+    padding: 1em;
+ }
+
+main article p {
+    background-color: #B3661E;
+}

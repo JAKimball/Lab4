@@ -20,3 +20,4 @@ function articles() {
     };
     return output;
 };
+

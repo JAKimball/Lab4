@@ -11,7 +11,11 @@
 .brownBackground { color: #B3661E; }
 .lightBrownBackground { color: #FFAC5E; }
 
-* { background-color: #0D93B3 }
+* { 
+    background-color: #0D93B3;
+    border: black;
+    border-width: 2px;
+ }
 
 body {
     margin: 0;
@@ -27,14 +31,30 @@ nav ul li {
      width: 5%;
  }
 
- main article {
-    background-color: #B3661E;
-    float: left;
-    /* width: 33.3%; */
-    margin: 0;
-    /* padding: 1em; */
+ nav ul li img {
+     width: 5%;
  }
 
-main article p {
+ main article {
+    float: left;
+    margin: 0;
+ }
+
+ main article section {
     background-color: #B3661E;
+    margin: 5%;
+    padding: 5%;
+}
+
+ main article section p {
+    background-color: #B3661E;
+}
+
+img {
+    float: left;
+    width: 5%;
+}
+
+article img {
+    width: 20%;
 }

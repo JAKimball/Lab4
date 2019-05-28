@@ -12,42 +12,53 @@
 .lightBrownBackground { color: #FFAC5E; }
 
 * { 
-    background-color: #0D93B3;
-    border: black;
+    background-color: #5EDFFF;
+    border-color: black;
     border-width: 2px;
- }
+}
 
-body {
-    margin: 0;
+/* body {
+    margin: 2.5%;
+} */
+
+nav {
+    background-color: #FFAC5E;
 }
 
 nav ul li {
     display: inline;
     color: #0D93B3;
-    background: #5EDFFF;
- }
+    background-color: #FFAC5E;
+}
 
- nav ul li {
-     width: 5%;
- }
+nav ul li {
+    width: 5%;
+    padding: 1%;
+}
 
- nav ul li img {
-     width: 5%;
- }
+nav ul li img {
+    float: none;
+    width: 5%;
+}
 
- main article {
+main {
+    margin: 2.5%;
+}
+
+main article {
     float: left;
     margin: 0;
- }
+}
 
- main article section {
-    background-color: #B3661E;
-    margin: 5%;
+main article section {
+    background-color: #0D93B3;
+    margin: 2.5%;
     padding: 5%;
 }
 
- main article section p {
-    background-color: #B3661E;
+main article section p {
+    color: #B3F0FF;
+    background-color: inherit;
 }
 
 img {
@@ -56,5 +67,15 @@ img {
 }
 
 article img {
-    width: 20%;
+    float: left;
+    width: 25%;
+    padding: 1ex;
+    margin: 2ex;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+footer {
+    display: block;
+    float: none;
 }

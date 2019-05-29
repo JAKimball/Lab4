@@ -1,4 +1,4 @@
-var userColumnResponse = prompt("How many articles accross each page?");
+var userColumnResponse = promptForColumns();
 var numColumns = Number(userColumnResponse); 
 
 function articleWidth() {
@@ -37,6 +37,16 @@ function article3() {
     output += '</article>';
     return output;
 };
+
+function promptForColumns() {
+    var userResponse = '';
+
+    // Keep prompting until the user gives a number from 1 to 10.
+    do {
+        userResponse = prompt("How many columns (1 thru 10) should we display articles across each page?");
+    }   while (isNaN(userResponse) || (userResponse < 1) || (userResponse > 10));
+    return userResponse;
+}
 
 function articles() {
     var output = '';

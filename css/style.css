@@ -38,9 +38,10 @@
 }
 
 body {
-  margin: 2.5%;
-  background-image: url("../images/Sky-unsplash-1503662549813-28954e75f215.jpg")
-    no-repeat center center fixed;
+  /* margin: 2.5%; */
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/Sky-unsplash-1503662549813-28954e75f215.jpg");
   background-color: #ffac5e;
 }
 

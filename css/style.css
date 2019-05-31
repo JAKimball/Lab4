@@ -1,86 +1,107 @@
 /* Color Theme Swatches in Hex */
-.darkBlue { color: #0D93B3; }
-.lightBlue { color: #B3F0FF; }
-.blue { color: #5EDFFF; }
-.brown { color: #B3661E; }
-.lightBrown { color: #FFAC5E; }
+.darkBlue {
+  color: #0d93b3;
+}
+.lightBlue {
+  color: #b3f0ff;
+}
+.blue {
+  color: #5edfff;
+}
+.brown {
+  color: #b3661e;
+}
+.lightBrown {
+  color: #ffac5e;
+}
 
-.darkBlueBackground { color: #0D93B3; }
-.lightBlueBackground { color: #B3F0FF; }
-.blueBackground { color: #5EDFFF; }
-.brownBackground { color: #B3661E; }
-.lightBrownBackground { color: #FFAC5E; }
+.darkBlueBackground {
+  color: #0d93b3;
+}
+.lightBlueBackground {
+  color: #b3f0ff;
+}
+.blueBackground {
+  color: #5edfff;
+}
+.brownBackground {
+  color: #b3661e;
+}
+.lightBrownBackground {
+  color: #ffac5e;
+}
 
-* { 
-    /* background-color: #5EDFFF;
+* {
+  /* background-color: #5EDFFF;
     border-color: black;
     border-width: 2px; */
 }
 
 body {
-    margin: 2.5%;
-    background-image: url("../images/Sky-unsplash-1503662549813-28954e75f215.jpg");
-    background-color: #FFAC5E;
+  margin: 2.5%;
+  background-image: url("../images/Sky-unsplash-1503662549813-28954e75f215.jpg")
+    no-repeat center center fixed;
+  background-color: #ffac5e;
 }
 
 nav {
-    /* background-color: #FFAC5E; */
-    /* background-image: url("../images/Sky-unsplash-1503662549813-28954e75f215.jpg"); */
+  /* background-color: #FFAC5E; */
+  /* background-image: url("../images/Sky-unsplash-1503662549813-28954e75f215.jpg"); */
 }
 
 nav ul li {
-    display: inline;
-    color: #0D93B3;
-    background-color: #FFAC5E;
+  display: inline;
+  color: #0d93b3;
+  background-color: #ffac5e;
 }
 
 nav ul li {
-    width: 5%;
-    padding: 1%;
+  width: 5%;
+  padding: 1%;
 }
 
 nav ul li img {
-    float: none;
-    width: 5%;
+  float: none;
+  width: 5%;
 }
 
 main {
-    margin: 2.5%;
+  margin: 2.5%;
 }
 
 main article {
-    float: left;
-    margin: 0;
+  float: left;
+  margin: 0;
 }
 
 main article section {
-    background-color: #0D93B3;
-    margin: 2.5%;
-    padding: 5%;
+  background-color: #0d93b3;
+  margin: 2.5%;
+  padding: 5%;
 }
 
 main article section p {
-    color: #B3F0FF;
-    background-color: inherit;
+  color: #b3f0ff;
+  background-color: inherit;
 }
 
 img {
-    float: left;
-    width: 5%;
+  float: left;
+  width: 5%;
 }
 
 article img {
-    float: left;
-    width: 25%;
-    padding: 1ex;
-    margin: 2ex;
-    margin-left: 0;
-    margin-top: 0;
+  float: left;
+  width: 25%;
+  padding: 1ex;
+  margin: 2ex;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 footer {
-    display: block;
-    width: 100%;
-    float: none;
-    background-color: #FFAC5E;    
+  display: block;
+  width: 100%;
+  float: none;
+  /* background-color: #FFAC5E;     */
 }
